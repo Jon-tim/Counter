@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+  border-radius: 1.5rem;
+  background: powderblue;
+  max-width: 350px;
+  /* height: 431px; */
+  /* background: rgb(181, 181, 182); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* gap: 1rem; */
+  padding: 2rem;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+h1,
+p,
+section {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+h1 {
+  font-size: 2rem;
+}
+.savedpeople {
+  font-size: 2rem;
+  text-align: center;
+  /* font-weight: bold; */
+}
+.hidden {
+  display: none;
+}
+p {
+  font-size: 5rem;
+  font-weight: bold;
+}
+div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+button {
+  cursor: pointer;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.8rem;
+  color: #fff;
+  font-size: 1rem;
+  width: 90px;
+}
+
+section {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+section button {
+  width: 120px;
+}
+section button:first-of-type {
+  background: green;
+}
+section button:nth-child(2) {
+  background: red;
+}
+div button:nth-child(1) {
+  background: rgb(53, 54, 54);
+}
+div button:nth-child(2) {
+  background: blue;
+}
